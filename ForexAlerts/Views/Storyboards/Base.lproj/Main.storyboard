@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qb1-cL-bBU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -16,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="labelColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="Onx-82-EjT" kind="relationship" relationship="viewControllers" id="0TV-jo-AUX"/>
@@ -29,11 +30,11 @@
             </objects>
             <point key="canvasLocation" x="-1046" y="-206"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Education-->
         <scene sceneID="AzN-t6-btW">
             <objects>
                 <navigationController id="5ls-4s-vPk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="book" catalog="system" id="zti-nn-4Kt"/>
+                    <tabBarItem key="tabBarItem" title="Education" image="book" catalog="system" id="zti-nn-4Kt"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="t4b-he-676">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -46,11 +47,11 @@
             </objects>
             <point key="canvasLocation" x="-662" y="585"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Notifications-->
         <scene sceneID="WkC-Qm-XFw">
             <objects>
                 <navigationController id="ucI-yg-ymy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="bell" catalog="system" id="RXP-Cn-5Jx"/>
+                    <tabBarItem key="tabBarItem" title="Notifications" image="bell" catalog="system" id="RXP-Cn-5Jx"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TGb-CW-cVX">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -63,11 +64,11 @@
             </objects>
             <point key="canvasLocation" x="-1370" y="585"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Account-->
         <scene sceneID="MLn-mH-u6d">
             <objects>
                 <navigationController id="MEl-wM-PJD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="gearshape" catalog="system" id="cr9-AI-Y2E"/>
+                    <tabBarItem key="tabBarItem" title="Account" image="person" catalog="system" id="cr9-AI-Y2E"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RZD-hT-DZl">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -80,11 +81,11 @@
             </objects>
             <point key="canvasLocation" x="46" y="585"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Home-->
         <scene sceneID="Rmn-FG-5tN">
             <objects>
                 <navigationController id="Onx-82-EjT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="bDm-as-xK4"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="bDm-as-xK4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Pft-Y3-3ii">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -165,8 +166,11 @@
     <resources>
         <image name="bell" catalog="system" width="128" height="124"/>
         <image name="book" catalog="system" width="128" height="99"/>
-        <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="106"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

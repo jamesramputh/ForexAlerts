@@ -25,6 +25,9 @@
 		24EE9C2D2842B9CA003A51B8 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE9C2C2842B9CA003A51B8 /* DatabaseManager.swift */; };
 		24EE9C2F2842BA59003A51B8 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE9C2E2842BA59003A51B8 /* AuthManager.swift */; };
 		24EE9C312842BAB9003A51B8 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE9C302842BAB9003A51B8 /* StorageManager.swift */; };
+		24EE9C332842C13F003A51B8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE9C322842C13F003A51B8 /* Extensions.swift */; };
+		24EE9C372842C885003A51B8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE9C362842C885003A51B8 /* GradientView.swift */; };
+		24EE9C392842C896003A51B8 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE9C382842C896003A51B8 /* GradientButton.swift */; };
 		336216634E2F004AA432FA53 /* Pods_ForexAlerts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3D764E8EE01A36D281FB0B /* Pods_ForexAlerts.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +52,9 @@
 		24EE9C2C2842B9CA003A51B8 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		24EE9C2E2842BA59003A51B8 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		24EE9C302842BAB9003A51B8 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		24EE9C322842C13F003A51B8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		24EE9C362842C885003A51B8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		24EE9C382842C896003A51B8 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		6D3D764E8EE01A36D281FB0B /* Pods_ForexAlerts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForexAlerts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B322EAE9CDAE37F2AA21D2D9 /* Pods-ForexAlerts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexAlerts.release.xcconfig"; path = "Target Support Files/Pods-ForexAlerts/Pods-ForexAlerts.release.xcconfig"; sourceTree = "<group>"; };
 		F1118EFE43819E914585F6BF /* Pods-ForexAlerts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexAlerts.debug.xcconfig"; path = "Target Support Files/Pods-ForexAlerts/Pods-ForexAlerts.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +136,9 @@
 				24EE9C2C2842B9CA003A51B8 /* DatabaseManager.swift */,
 				24EE9C2E2842BA59003A51B8 /* AuthManager.swift */,
 				24EE9C302842BAB9003A51B8 /* StorageManager.swift */,
+				24EE9C322842C13F003A51B8 /* Extensions.swift */,
+				24EE9C362842C885003A51B8 /* GradientView.swift */,
+				24EE9C382842C896003A51B8 /* GradientButton.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -321,13 +330,16 @@
 				24EE9C312842BAB9003A51B8 /* StorageManager.swift in Sources */,
 				24EE9C2F2842BA59003A51B8 /* AuthManager.swift in Sources */,
 				24EE9C2228429C0A003A51B8 /* RegistrationViewController.swift in Sources */,
+				24EE9C372842C885003A51B8 /* GradientView.swift in Sources */,
 				24EE9C2428429C3D003A51B8 /* TradeDetailsViewController.swift in Sources */,
 				24EE9BFE28429760003A51B8 /* AppDelegate.swift in Sources */,
 				24EE9C1B28429A64003A51B8 /* ProfileViewController.swift in Sources */,
 				24EE9C0028429760003A51B8 /* SceneDelegate.swift in Sources */,
+				24EE9C332842C13F003A51B8 /* Extensions.swift in Sources */,
 				24EE9C2D2842B9CA003A51B8 /* DatabaseManager.swift in Sources */,
 				24EE9C1928429A44003A51B8 /* EducationViewController.swift in Sources */,
 				24EE9C2628429CAB003A51B8 /* EditProfileViewController.swift in Sources */,
+				24EE9C392842C896003A51B8 /* GradientButton.swift in Sources */,
 				24EE9C1728429A22003A51B8 /* NotificationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
